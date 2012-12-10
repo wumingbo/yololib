@@ -1,11 +1,3 @@
-//
-//  main.c
-//  swagger
-//
-//  Created by Terence Tan on 8/12/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
-//
-
 #include <stdio.h>
 #include <inttypes.h>
 #include <stdlib.h>
@@ -24,6 +16,8 @@
 #include <mach-o/dyld.h>
 #include <dlfcn.h>
 #include <dlfcn.h>
+
+//99.99% of code from Clutch 
 
 #define DYLIB_PATH "@executable_path/crack.dylib"
 #define DYLIB_CURRENT_VER 0x10000
